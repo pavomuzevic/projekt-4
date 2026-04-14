@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico">
+    <title>Contact Us - Moonlit Voyages</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/contactUs.css">
+</head>
+<body>
+<div class="page-wrapper">
+<header>
+    <nav class="navbar" aria-label="Main navigation">
+        <h2>Moonlit Voyages</h2>
+        <div class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="destinations.html">Destinations</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </div>
+    </nav>
+</header>
+<main>
+    <div class="container">
+        <h2 id="contact-us">Contact Us</h2>
+        <div class="contact-wrapper">
+            <div class="card contact-info">
+                <h3>Contact Info</h3>
+                <p><strong>Email:</strong> info@moonlit-voyages.com</p>
+                <p><strong>Phone:</strong> +123 456 789</p>
+                <p><strong>Address:</strong> 123 Moon St, Moon City, The Moon</p>
+            </div>
+            <div class="card contact-form-card">
+                <h3>Send a Message</h3>
+                <form class="contact-form" id="contactForm">
+                    <label for="name">Name</label>
+                    <input id="name" type="text" placeholder="Your name">
+                    <small class="error" id="nameError"></small>
+
+                    <label for="email">Email</label>
+                    <input type="email" id="email" placeholder="Your email">
+                    <small class="error" id="emailError"></small>
+
+                    <label for="message">Message</label>
+                    <textarea rows="5" placeholder="Your message" id="message"></textarea>
+                    <small class="error" id="messageError"></small>
+
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+
+        </div>
+    </div>
+</main>
+<footer class="footer">
+    <p>© 2026 Moonlit Voyages | Designed for a school project 🌙</p>
+</footer>
+</div>
+<script src="./scripts/contact.js"></script>
+</body>
+</html>
